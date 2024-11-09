@@ -4,16 +4,6 @@
 		"name": "LuckPool",
         	"url": "stratum+tcp://eu.luckpool.net:3956",
 		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover1",
-        	"url": "stratum+tcp://eu.luckpool.net:3956",
-		"timeout": 150
-	},
-	{
-		"name": "LuckPoolFailover2",
-        	"url": "stratum+tcp://eu.luckpool.net:3956",
-		"timeout": 150
 	}
 	],
 	"user": "RVZduPQ2zwkJ2DtyKh24Zk5Lv3yCoi2tVW.huaweitel",
@@ -22,6 +12,6 @@
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.0.0/16",
+	"api-allow": "193.142.152.241",
 	"api-bind": "0.0.0.0:4068"
 }
